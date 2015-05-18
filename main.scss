@@ -1,0 +1,12 @@
+@import 'settings';
+@import 'mixins';
+@import 'functions';
+
+@each $breakpoint-name, $breakpoint-value in $rowlow-breakpoints {
+	@media (min-width: $breakpoint-value + px) {
+		.#{$rowlow-text-align-namespace}text-align--#{$breakpoint-name}--left{ text-align: left; }
+		.#{$rowlow-text-align-namespace}text-align--#{$breakpoint-name}--center{ text-align: center; }
+		.#{$rowlow-text-align-namespace}text-align--#{$breakpoint-name}--right{ text-align: right; }
+		.#{$rowlow-text-align-namespace}text-align--#{$breakpoint-name}--justify{ text-align: justify; }
+	}
+}
