@@ -1,5 +1,5 @@
 # rowlow.type.text-align
-Defining a map of color name and color code pairs, this module generates css selectors for each background, border and text colors.
+This text util helps you to fully control text aligns amog all responsive breakpoints.
 
 ## Install
 
@@ -26,7 +26,7 @@ Defining a map of color name and color code pairs, this module generates css sel
 
 ### CSS Selector Naming Scheme
 ```
-    {rowlow-text-align-namespace}text-aling--{breakpoint-name}--{left, right, center, justify}
+    {rowlow-text-align-namespace}text-align--{breakpoint-name}--{left, right, center, justify}
 ```
 
 
